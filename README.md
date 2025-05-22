@@ -4,7 +4,7 @@
 Esse e um projeto web  de criaçao de um cabeçalho contendo pesquisa,eventos,club fidelidade,sobre nos,carrinho e perfil.
 
 
-## Autor
+## Autores
 Thiago Ramos Xavier
 
 ## Contato
