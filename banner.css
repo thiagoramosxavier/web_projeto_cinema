@@ -1,0 +1,73 @@
+    .banner{
+
+
+
+background-image: url("../images/Banner.png");
+background-position: center;
+background-repeat: no-repeat;
+height: 60vh;
+
+
+    }
+    .banner_container{   /*mae do h2*/
+
+max-width:  var(--max-width-block);
+margin: 0 auto;
+height: 100%;
+width: 100%;
+
+display: flex;           /* eixo principal horizontal*/
+flex-direction: column;     /*eixo principal virou vertical*/
+justify-content: center;       /*eixo principal*/
+ }
+
+ .banner__titulo{
+
+font-family: var(--fonte-titulo);
+font-size: 4.75rem;
+font-weight: 400;
+line-height: 1.2em;
+color: var(--cor-texto-claro);
+width: 50%;
+ }
+ .banner__titulo-destaque{
+
+font-family: var(--fonte-titulo);
+font-size: 4.75rem;
+font-weight: 400;
+color: var(--cor-texto-destaque);
+line-height: 1.2em;
+
+ }
+
+ @media screen and(max-width:1200px){
+.banner{
+height: 30vh;
+padding-left: 10vw;
+
+}
+.banner__titulo{
+font-size: 3rem;
+line-height: 1.2rem;
+width: 60%;
+
+}
+
+ }
+
+
+ @media screen and (max-width: 730px) {
+    .banner {
+        height: 25vh;
+        padding-left: 5vw;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+        line-height: 1.2em;
+    }
+
+    .banner__titulo-destaque {
+        font-size: 2rem;
+    }
+}
